@@ -1,17 +1,18 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-image:url("https://raw.githubusercontent.com/mohantamizh/love-calculator/main/bg-img.jpg");
+    background-image:url("bg-img.jpg");
     background-size:cover;
-    background-repeat:no-repeat;
+    background-repeat:repeat-y;
     color: #fff;
     font-size:1.7rem;
+    /* margin-bottom: 10%; */
 }
 
 .container{
     border: none;
     border-radius: 20px;
-    background:linear-gradient(270deg,#eb4067,#fbb5b5);
+    background:linear-gradient(270deg,#ee3963,#ffbbbb);
     text-align: center;
     opacity: 90%;
     margin:0 auto;
@@ -133,8 +134,13 @@ input[type='text']{
        
 }
 @media (max-width:425px) {
+    body{
+        
+        background:repeating-linear-gradient(270deg,#fbb5b5,#d7295f);
+    }
     .container{
         width: 100%;
         font-size: 1rem;
+        opacity: 100%;
        }
 }
