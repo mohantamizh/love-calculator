@@ -139,8 +139,8 @@ input[type='text']{
         background:repeating-linear-gradient(270deg,#fbb5b5,#d7295f);
     }
     .container{
-        width: 100%;
-        font-size: 1rem;
+        width: auto;
+        font-size: 1.5rem;
         opacity: 100%;
        }
 }
